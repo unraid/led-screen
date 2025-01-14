@@ -1,0 +1,22 @@
+{
+  "name": "gridstack-led-screen",
+  "version": "1.0.0",
+  "description": "LED Screen Driver in Node for Gridstack Box",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "codegen:watch": "graphql-codegen --config codegen.ts --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.12.6",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/client-preset": "^4.5.1",
+    "@parcel/watcher": "^2.5.0"
+  }
+}
